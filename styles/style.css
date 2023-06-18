@@ -16,6 +16,10 @@ footer {
   font-family: 'Manrope', sans-serif;
 }
 
+section {
+  margin-top: 150px;
+}
+
 .container {
   margin: 0 auto;
   width: 1150px;
@@ -93,7 +97,7 @@ footer {
 
 .description-greatings__appeal {
   width: 919px;
-  font-size: 80px;
+  font-size: 76px;
   line-height: 70px;
   color: var(--my-color);
   padding-bottom: 94px;
