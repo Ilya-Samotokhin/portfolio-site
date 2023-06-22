@@ -256,3 +256,58 @@ h3 {
 .services__text p {
   width: 749px;
 }
+
+/* контакты */
+
+.contacts {
+  height: 717px;
+  background-image: url(../resurces/cuate.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #191C19;
+  border-radius: 30px;
+}
+
+.container-contacts {
+  padding-top: 320px;
+}
+
+.contacts__text {
+  font-size: 35px;
+  line-height: 60px;
+  margin-bottom: 28px;
+}
+
+.contacts__link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.contacts__link:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* футер */
+
+.footer {
+  background-color: #fff;
+  border-radius: 30px 30px 0 0;
+}
+
+.footer__descr {
+  padding-top: 76px;
+  padding-bottom: 66px;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000;
+}
+
+.footer__text {
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: #000;
+  opacity: 0.5;
+}
