@@ -3,8 +3,16 @@ body {
   color: #fff;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
   letter-spacing: -0.03em;
 }
+
 
 header,
 main,
@@ -20,6 +28,21 @@ section {
   margin-top: 150px;
 }
 
+h2 {
+  font-size: 55px;
+  line-height: 72px;
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 45.5px;
+}
+
+.description-format {
+  font-size: 22px;
+  line-height: 29px;
+}
+
 .container {
   margin: 0 auto;
   width: 1150px;
@@ -33,8 +56,8 @@ section {
 /* Приветствие */
 
 .header-wrapper {
-  /* height: 765px; */
   width: 100%;
+  height: 765px;
   background-image: url(../resurces/greetings.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,4 +124,135 @@ section {
   line-height: 70px;
   color: var(--my-color);
   padding-bottom: 94px;
+}
+
+/* Портфолино */
+
+.project__title {
+  margin-bottom: 40px;
+}
+
+.project__list {
+  position: relative;
+  width: 1150px;
+  height: 550px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project__list:last-child {
+  margin-bottom: 80px;
+}
+
+.project__wrapper {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.project__subtitle {
+  margin-bottom: 5px;
+}
+
+.project__description {
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.btn {
+  display: block;
+  padding: 57px 85px;
+  width: 582px;
+  height: 153px;
+  font-size: 30px;
+  line-height: 39px;
+  text-decoration: none;
+  background-color: var(--my-color);
+  color: #000;
+  border-radius: 10px;
+}
+
+/* компетенции */
+
+.experience__title {
+  margin-bottom: 87px;
+}
+
+.experience__items h3 {
+  margin-bottom: 15px;
+  position: relative;
+  color: var(--my-color);
+}
+
+.experience__items p {
+  margin-bottom: 120px;
+  width: 778px;
+}
+
+
+.experience__markup-title::before,
+.experience__js-title::before,
+.experience__library-title::before,
+.experience__mobile-title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 45px;
+  height: 44px;
+  top: -57px;
+  background-color: var(--my-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+
+}
+
+.experience__markup-title::before {
+  background-image: url(../resurces/html-and-css_picture.svg);
+}
+
+.experience__js-title::before {
+  background-image: url(../resurces/JS_pictur.svg);
+
+}
+
+.experience__library-title::before {
+  background-image: url(../resurces/libraries\ and\ frameworks.svg);
+
+}
+
+.experience__mobile-title {
+  width: 651px;
+}
+
+.experience__mobile-title::before {
+  background-image: url(../resurces/adaptation.svg);
+}
+
+/* Услуги */
+
+.services__wrapper:not(:last-child) {
+  margin-bottom: 106px;
+}
+
+.services__subtitle {
+  margin-bottom: 74px;
+  width: 403px;
+}
+
+.services__text {
+  padding: 40px;
+  height: 283px;
+  background-color: #191C19;
+  border-radius: 30px;
+}
+
+.services__title {
+  margin-bottom: 15px;
+  color: var(--my-color);
+}
+
+.services__text p {
+  width: 749px;
 }
