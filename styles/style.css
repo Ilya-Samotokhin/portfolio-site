@@ -135,7 +135,7 @@ h3 {
   margin-bottom: 40px;
 }
 
-.project__list {
+.project__item {
   position: relative;
   width: 100%;
   height: 550px;
@@ -144,7 +144,7 @@ h3 {
   background-size: cover;
 }
 
-.project__list:last-child {
+.project__item:last-child {
   margin-bottom: 80px;
 }
 
