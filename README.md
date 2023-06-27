@@ -1,4 +1,4 @@
 # portfolio-site
 
-Мой гит
-https://github.com/Ilya-Samotokhin/portfolio-site
+Сам сайт
+https://ilya-samotokhin.github.io/portfolio-site/
