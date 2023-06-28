@@ -148,6 +148,18 @@ h3 {
   margin-bottom: 80px;
 }
 
+.project__item:hover img {
+  filter: brightness(60%);
+  transition: 0.5s;
+}
+
+.project__item:hover h3,
+.project__item:hover p {
+  font-size: 45px;
+  color: var(--my-color);
+  transition: 0.5s;
+}
+
 .project__wrapper {
   position: absolute;
   left: 50px;
@@ -156,11 +168,13 @@ h3 {
 
 .project__subtitle {
   margin-bottom: 5px;
+  color: #fff;
 }
 
 .project__description {
   font-size: 30px;
   line-height: 39px;
+  color: #fff;
 }
 
 .btn {
