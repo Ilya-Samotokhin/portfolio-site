@@ -44,10 +44,11 @@ h3 {
 .description-format {
   font-size: 22px;
   line-height: 29px;
+  width: 778px;
 }
 
 :root {
-  --my-color: rgb(247, 255, 5);
+  --my-color: rgb(255, 204, 50);
 }
 
 .menu-link:hover,
@@ -97,16 +98,16 @@ h3 {
   padding: 0 10px;
 }
 
-.menu-item {
+.menu__item {
   display: inline-block;
 
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
   line-height: 55px;
   text-decoration: none;
   color: #fff;
@@ -201,7 +202,7 @@ h3 {
 /* компетенции */
 
 .experience__title {
-  margin-bottom: 87px;
+  margin-bottom: 105px;
 }
 
 .experience__items h3 {
@@ -261,12 +262,12 @@ h3 {
   margin-bottom: 106px;
 }
 
-.services__subtitle {
+.services-subtitle {
   margin-bottom: 74px;
   width: 403px;
 }
 
-.services__text {
+.services {
   padding: 40px;
   height: 283px;
   background-color: #191C19;
