@@ -51,7 +51,7 @@ h3 {
   --my-color: rgb(255, 204, 50);
 }
 
-.menu-link:hover,
+.menu__link:hover,
 .contacts__link:hover {
   color: var(--my-color);
   transition: 0.5s;
