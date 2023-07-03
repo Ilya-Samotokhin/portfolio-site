@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  min-width: 1400px;
 }
 
 body {
@@ -7,12 +8,11 @@ body {
   color: #fff;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
-  min-width: 1400px;
 }
 
 .container {
-  margin: 0 auto;
   width: 1150px;
+  margin: 0 auto;
 }
 
 h1,
@@ -57,6 +57,7 @@ h3 {
   transition: 0.5s;
 }
 
+
 /* Приветствие */
 
 .header-wrapper {
@@ -74,12 +75,17 @@ h3 {
 
 .logo-wrapper {
   display: inline-block;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 100px;
 }
 
+.logo-wrapper:hover {
+  background-color: #000;
+  transition: 0.3s;
+}
+
 .logo {
-  padding: 0 10px;
+  padding: 0 15px;
   display: block;
   font-weight: 700;
   font-size: 43px;
@@ -91,7 +97,7 @@ h3 {
 }
 
 .menu {
-  display: inline-block;
+  display: block;
   float: right;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 100px;
@@ -298,14 +304,11 @@ h3 {
   border-radius: 30px;
 }
 
-.container-contacts {
-  padding-top: 320px;
-}
-
 .contacts__text {
+  margin-bottom: 28px;
+  padding-top: 320px;
   font-size: 35px;
   line-height: 60px;
-  margin-bottom: 28px;
 }
 
 .contacts__link {
